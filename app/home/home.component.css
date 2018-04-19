@@ -1,0 +1,11 @@
+StackLayout {
+  margin-top: 30;
+  margin-left: 30;
+  margin-right: 30;
+  padding-bottom: 15;
+  background-color: white;
+}
+TextField {
+  border-width: 1;
+  border-color: black;
+}

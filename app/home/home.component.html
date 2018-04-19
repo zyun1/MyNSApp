@@ -1,0 +1,10 @@
+<ActionBar class="action-bar">
+    <Label class="action-bar-title" text="Home"></Label>
+</ActionBar>
+
+<StackLayout class="page">
+    <!-- Add your page content here -->
+    <TextField hint="名前" [(ngModel)]="userName"></TextField>
+    <Button text="ここをタップ" (tap)="onTap()"></Button>
+    <Button text="次の画面へ" (tap)="onTapToNext()"></Button>
+</StackLayout>
